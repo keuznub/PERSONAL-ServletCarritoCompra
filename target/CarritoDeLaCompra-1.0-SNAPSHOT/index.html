@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Recursos/ejercicioCarrito.css">
+    <script type="text/javascript" src="Recursos/carrito.js"></script>
+    <title>EjercicioCarrito</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Añadir articulos</legend>
+        <br>
+        <form action="/CarritoDeLaCompra/añadir" method="post" name="form1" onsubmit="return validacion(this)">
+        <label for="articulo">Nombre de articulo :</label>
+        <input type="text" name="articulo" size="20" id="articulo">
+        <input class="number" type="number" name="cantidad" id="cantidad">
+        <input type="submit" name="enviar" value="Añadir">
+        </form>
+        <br>
+        <br>
+        <form class="form2" action="/CarritoDeLaCompra/carrito" method="post">
+            <input class="enviarCarrito" type="submit" name="enviarCarrito" value="Ver Carrito">
+        </form>
+
+
+    </fieldset>
+    <script type="text/javascript" src="Recursos/carrito.js"></script>
+</body>
+</html>

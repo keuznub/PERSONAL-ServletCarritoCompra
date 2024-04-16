@@ -1,0 +1,19 @@
+body{
+    width: 70%;
+    margin: auto;
+    margin-top: 2em;
+    background-color: rgba(99, 115, 187, 0.39);
+}
+
+legend{
+    text-align: center;
+}
+
+.number{
+    width: 3em;
+}
+
+.enviarCarrito{
+    display: block;
+    margin: auto;
+}
